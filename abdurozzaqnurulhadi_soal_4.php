@@ -12,7 +12,7 @@ sampai 10. yang mana jika dijalankan akan menghasilkan output seperti berikut in
 9. Bilangan Ganjil
 10. Bilangan Genap</pre>";
 
-echo "<h3>Penyelesaian</h3><br>";
+echo "<h3>Penyelesaian</h3>";
 
 $bilangan = [1, 2, 3, 4 ,5 ,6 , 7, 8, 9, 10];
 
@@ -22,62 +22,62 @@ echo "Simpan Sebagai Array<br><br>";
 echo "Menggunakan IF Statements untuk menfilter dan mendisplay: <br><br>";
 
 if ($bilangan[0] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[0] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[0] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[1] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[1] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[1] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[2] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[2] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[2] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[3] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[3] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[3] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[4] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[4] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[4] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[5] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[5] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[5] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[6] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[6] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[6] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[7] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[7] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[7] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[8] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[8] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[8] . ". " . "Bilangan Ganjil <br>";
 }
 
 if ($bilangan[9] % 2 == 0) {
-    echo "Bilangan Genap <br>";
+    echo $bilangan[9] . ". " . "Bilangan Genap <br>";
 } else {
-    echo "Bilangan Ganjil <br>";
+    echo $bilangan[9] . ". " . "Bilangan Ganjil <br>";
 }
 
